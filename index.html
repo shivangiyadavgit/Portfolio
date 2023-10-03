@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- //Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>    
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"><title>Shivangi Yadav</title>
+</head>
+<body>
+    <div id="header">
+       
+        <div class="container">
+            <nav>
+                <img src="images/newlogo.png"  alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="main">
+            <div class="header-text">
+                <!-- <p>A Programmer</p> -->
+                <h1>Hi ,<br> I'm <span style="color:#9a0148 ;">Shivangi</span> </h1>
+                <button class="proBtn">
+                    <a href="#portfolio" style="color: aliceblue; text-decoration: none;">
+                        My Projects</a>
+                    </button>
+            </div>
+            
+        </div>
+        </div>
+    </div>
+
+<!-- --------------------about and Education------------------ -->
+    <div class="outer_about">
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1 col-md-2">
+                        <img src="images/User (2).png" alt="">
+                    </div>
+                    <div class="about-col-2 col-md-2">
+                        <h1 class="sub-title">About Me</h1>
+
+                        <p>My Name is Shivangi Yadav  I have completed my BTech in Computer Science branch.
+                        Designing and Coding have always been my passion .I enjoy creating beautifully designed, intuitive and functional websites..<br>
+                        <br>I am Sincere , well organized and a Hard working person.
+                        My goal is to become associated with a company where I can utilize my skills and gain futher 
+                        experience while enhancing the company's productivity and reputation.
+                        I want to utilize my skills and provide services by applying  my knowledge and working
+                        in a challenging and motivated environment.
+                        </p>
+                        <a href="images/shivangi_resume.pdf"  class="btn btn2" download >Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="education">
+            <div class="container">
+                <div class="edu">
+                    <div class="col1">
+                       <img src="images/eduLogo.png" alt="logo" class="edu-logo">
+                    </div>
+                    <div class="col2">
+                        <h1>Education</h1>
+                    </div>
+        
+                </div>
+                <div class="study">
+                    <div class="clg">
+                        <h2>2019 - 2023</h2>
+                        <h3>BTech</h3>
+                        <p>Arya Institute of Engineering Technology and Management , jaipur</p>
+                    </div>
+                    <div class="twelth">
+                        <h2>2018 - 2019</h2>
+                        <h3>12th Standard</h3>
+                        <p>Central Academy Sr. Sec. School, Jaipur</p>
+                    </div>
+                    <div class="tenth">
+                        <h2>2017 - 2018</h2>
+                        <h3>10th Standard</h3>
+                        <p>Central Academy Sr. Sec. School, Jaipur</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+<!-- -------------------skills---------------- -->
+<div id="skills">
+    <div class="container">
+        
+        <h1 class="sub-title">Skills</h1>
+        <div class="skill-list">
+            <div >
+                <h2>HTML</h2>
+            </div>
+            <div>
+                <h2>CSS</h2>
+            </div>
+            <div>
+                <h2>JS</h2>
+            </div>
+            <!-- <div>
+                <h2>C++</h2>
+            </div> -->
+        </div>
+                
+    </div>
+</div>
+<!-- -----------portfolio--------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+
+        <div class="work-list">
+            <div class="work">
+                <img src="images/NFTpro.jpg" alt="NFT project">
+                <div class="layer">
+                    <h3>NFT Website</h3>
+                    <p>This website is designed using HTML and Tailwind CSS.
+                         Click on the link button to have a look. 
+                    </p>
+                    <a href="https://shivangiyadavgit.github.io/NFT-Website/"><i class="fa-solid fa-link "></i></a>
+
+                </div>
+            </div>
+  
+            <div class="work">
+                <img src="images/netflix.jpg" alt="Netflix clone" >
+                <div class="layer">
+                    <h3>Netflix Clone</h3>
+                    <p>Netflix clone made using HTML , Tailwind CSS and Js
+                    </p>
+                    <a href="https://shivangiyadavgit.github.io/Netflix-Clone/"><i class="fa-solid fa-link"></i></a>
+
+                </div>
+                
+            </div>    
+        </div>
+
+        <div class="work-list">
+              <div class="work">
+                <img src="/images/RideGo.jpeg" alt="Ride Go Project">
+                <div class="layer">
+                    <h3>Ride Go</h3>
+                    <p>This webiste is for two wheelers it is made using HTML and Tailwind CSS
+                    </p>
+                    <a href="https://shivangiyadavgit.github.io/Ride/"><i class="fa-solid fa-link"></i></a>
+
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="/images/hospital.jpg" alt="Hospital Website">
+                <div class="layer">
+                    <h3>Hospital website</h3>
+                    <p>This enables the user to find out the calories 
+                        and nutrient values in a paticular food item.
+                    </p>
+                    <a href="https://shivangiyadavgit.github.io/Hospital-Website/"><i class="fa-solid fa-link"></i></a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- ---------contact--------- -->
+<div class="addborder">
+    <div id="contact" >
+        <div class="container">
+            <div class="roww">
+                <div class="contact-left">
+                <h1 >Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>shivangiyadav112@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 8290418017</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/shivangiyadav112/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/sh.ivangi_art/"><i class="fa-brands fa-square-instagram"></i></a>
+
+                </div>
+                </div>
+                <div class="contact-right">
+                    <form method="post" action="" onsubmit="sendEmail(); reset(); return false;">
+                        <input type="text" name ="Name" id="name" placeholder="Your Name" required>
+                        <input type="email" name="email"  placeholder=" Your email"id="email" required>
+                        <textarea name="Message" row="8" placeholder="Your Message" id="message" ></textarea>
+                        <!-- <a href="mailto:someone@example.com"></a> -->
+                        <button type="submit"  class="btn" >Send email</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e229f2202a.js" crossorigin="anonymous"></script>
+  
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+        function sendEmail(){
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let message = document.getElementById("message").value;
+            Email.send({
+                Host : "smtp.gmail.com",
+                Username : "shivangiyadav112@gmail.com",
+                // Password : "E9E049EBBCC8F0A4CD014211B39581188E3E",
+                To : 'shivangiyadav112@gmail.com',
+                From : "shivangiyadav112@gmail.com",
+                Subject : "New Enquiry",
+                Body : "Name:"+ name +"<br> User Email: " + email + "<br> Message:"+ message
+            }).then(
+            message => alert("Message sent successfully")
+            );
+        }
+    </script>
+</body>
+</html>
